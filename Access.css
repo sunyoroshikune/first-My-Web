@@ -1,0 +1,9 @@
+/*全てのwebページに適用される*/
+@charset "UTF-8";
+body{
+  background-color: black;
+  color: white;
+}
+a{
+  color: deepskyblue;
+}

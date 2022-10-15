@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+/*全てのwebページに適用される*/
+html {
+       font-family: serif;
+}
+html * {
+        box-sizing: border-box;
+}
+body {
+        margin: 0 0 0 0;
+        background-color: black;
+}
+.wrapper {
+        margin: 0 auto 0 auto;
+        max-width: 960px;
+}
+h2 {
+        color:white;
+        font-size: 22px;
+        border-bottom: 3px dotted white;
+        margin-top: 20px;
+margin-right: 0px;
+margin-bottom: 20px;
+margin-left: 0px;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left:5px;
+}
+h3 {
+
+        margin-left: 310px;
+        
+        }
+p{
+        line-height:1.6;
+}
+a,sun:link{
+        color: white;
+        font-size:30px;
+}
+a:link{
+        color:white;
+}
+
+/*全てのページに適用 - ヘッダー - */
+.logo {
+        margin: 50px 0 40px 0;
+        line-height: 0;
+        text-align: center;
+}
+ /* about.html */
+ .shop-photo {
+         float: left;
+         padding: 0 1em 1em 0;
+    width: 300px;  /* 横幅を200pxに */
+
+ 
+  clear: both;
+}
+/*テーブル*/
+.info{
+        border-collapse: collapse;
+}
+.info th,.info td{
+        padding: 8px;
+        border: 1px solid white;
+        text-align: left;
+        font-size: large;
+}
+.info th {
+        background-color: black;
+        width: 90px;
+        color:white;
+        vertical-align: top;
+}
+ 
+
+/*menu.html*/
+.menu-item {
+display: flex;
+border-bottom: 1px dashed #bec2c7;
+padding: 20px 8px;
+}
+.menu-photo {
+margin-right: 16px;
+}
+
+/* menu.html */
+.menu-item {
+ display: flex;
+ border-bottom: 1px dashed white;
+ padding: 20px 8px;
+}
+.menu-photo {
+ margin-right: 16px;
+ flex: 1 1 auto;
+}
+.menu-text {
+        flex: 0 0 336px;
+}
+
+/* access.html */
+.map {
+  text-align: center;
+}
+.daimei {
+        font-size:100px;
+        margin-left:310;
+}
+q{
+  color: yellow
+}
+.nav li {
+    display: inline;
+    padding-right: 30px;
+}
+p {
+
+  color: white;
+}
+b{
+color:white;
+  
+}
+a,example{
+  color:white;
+  border:none;
+}
+tr{
+  color:white;
+}
+
+span{
+  color: darkturquoise
+}
+span{
+  font-size: 150%
+}
+
+div.isu img{
+ height: 500px;  
+}
+
+.isu{
+  display: flex;
+  justify-content: space-between;
+}
+/*
+.isu{
+  width: 30px;
+  padding: 7%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 3px 12px alpha(black,.2);
+  filter: saturate(70%) contrast(85%);
+  
+    width: 100%;
+    display: block;
+    z-index: 1;
+    content: '';
+    width: 100%;
+    left: 0;
+    position: absolute;
+  width:100%;
+  height: 100%;
+    top: 0;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,  alpha(white,.1) .5%, alpha(black,.15) 1.2%, transparent 1.2%),
+                      linear-gradient(to bottom, alpha(white,.1) .5%, alpha(black,.15) 1.2%, transparent 1.2%),
+                      linear-gradient(to bottom, alpha(white,.1) .5%, alpha(black,.15) 1.2%, transparent 1.2%),
+                      linear-gradient(265deg,  alpha(black,.2), transparent 10%),
+                      linear-gradient(5deg,    alpha(black,.2), transparent 15%),
+                      linear-gradient(-5deg,   alpha(black,.1), transparent 10%),
+                      linear-gradient(5deg,    alpha(black,.1), transparent 10%),
+                      linear-gradient(-265deg, alpha(black,.2), transparent 10%),
+                      linear-gradient(-5deg,   alpha(black,.2), transparent 15%),
+                      linear-gradient(266deg,  alpha(black,.2), transparent 10%);
+    background-size: 50% 100%,
+                     100% 33.3333%,
+                     100% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%;
+    background-position: right top,
+                         left center,
+                         left bottom,
+                         left  top,
+                         left  top,
+                         right top,
+                         left  center,
+                         right center,
+                         right center,
+                         left  bottom
+
+}
+
+li,example{
+  border: none;
+}
+
+.topback{
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: solid 6px #000;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+}
+
+.topback:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0, 0);
+  transition: transform ease 0.4s;
+}
+
+.topback:hover:after {
+  transform: translate(-50%, -50%) scale(1.1, 1.1);
+}
+
+.topback:before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 55%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 6px 0 0 6px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: border-color ease 0.1s;
+}
+
+.topback:hover:before {
+  border-color: #fff;
+}
+
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}*/

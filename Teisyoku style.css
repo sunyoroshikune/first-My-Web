@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*全てのwebページに適用される*/
+div {
+  background-color: black;
+  color: white;
+}
+
+p {
+   font-size:30px;
+}
+p:first-letter {
+  color: dodgerblue;
+  font-size: 300%;
+}
+a{
+  font-size: 100%
+}
+.solid_line {
+  /*上と下にグレイの1pxの線を引きます*/
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+.dashed_line {
+  /*上と下に水色の1pxの破線を引きます*/
+  border-top: dashed 1px skyblue;
+  border-bottom: dashed 1px skyblue;	
+}
+p {padding: 10px
+  /*両方ともpadding10pxに*/}
+  
+  .v_line_left {
+    border-left: midnightblue;
+    padding-left: 0px;
+  }
+  m img {
+    width: 600px;  /* 横幅を200pxに */
+}
+ img {
+    width: 600px;  /* 横幅を200pxに */
+}
+f img {
+    width: 600px;  /* 横幅を200pxに */
+}
+a {
+  color: deepskyblue;
+}

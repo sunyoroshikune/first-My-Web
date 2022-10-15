@@ -1,0 +1,19 @@
+/*全てのwebページに適用される*/
+@charset "UTF-8";
+body {
+  background-color: black;
+  color: white;
+}
+a {
+  color: deepskyblue;
+}
+img {
+    width: 900px;  /* 横幅を200pxに */
+}
+p:first-letter {
+  color: dodgerblue;
+  font-size: 300%;
+}
+p {
+  font-size: 30px;
+}
