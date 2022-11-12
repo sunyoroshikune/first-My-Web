@@ -11,7 +11,7 @@ a{
 .gmap {
 height: 0;
 overflow: hidden;
-padding-bottom: 56.25%;
+padding-bottom: 100%;
 position: relative;
 }
 .gmap iframe {
