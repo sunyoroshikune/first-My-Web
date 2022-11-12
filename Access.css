@@ -7,3 +7,11 @@ body{
 a{
   color: deepskyblue;
 }
+
+.exsample{
+position:adsolute;
+top: 0;
+left:0;
+width:100%
+ height:auto;
+}
