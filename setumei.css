@@ -7,3 +7,7 @@ body {
 a {
   color: deepskyblue;
 }
+
+@media screen and (max-width:480px)[
+  
+  ]
