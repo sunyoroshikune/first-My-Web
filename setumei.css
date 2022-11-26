@@ -26,11 +26,11 @@ a {
 8
 9
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-.pc { display: block !important; }
-.sp { display: none !important; }
+.pc { display: block ; }
+.sp { display: none ; }
  
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 750px) {
-    .pc { display: none !important; }
-    .sp { display: block !important; }
+    .pc { display: none ; }
+    .sp { display: block ; }
 }
