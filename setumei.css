@@ -8,13 +8,13 @@ a {
   color: deepskyblue;
 }
 
-@media screen and (max-width:480px)[
+/* @media screen and (max-width:480px)[
   
   img{
   width:400px;
   
 }
-  ]
+  ] */
 
 1
 2
