@@ -45,7 +45,18 @@ a {
   color: deepskyblue;
 }
 
-.wrapper {
-        margin: 0 auto 0 auto;
-        max-width: 960px;
+.pc{
+  display: block;
+}
+.sp{
+  display: none;
+}
+
+@media only screen and (max-width: 767px){
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
 }
