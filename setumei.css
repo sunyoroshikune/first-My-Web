@@ -30,7 +30,7 @@ a {
 .sp { display: none ; }
  
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 400px) {
     .pc { display: none ; }
     .sp { display: block ; }
 }
