@@ -32,7 +32,7 @@ p {padding: 10px
     border-left: midnightblue;
     padding-left: 0px;
   }
-  m img {
+/*   m img {
     width: 600px;  /* 横幅を200pxに */
 }
  img {
@@ -40,7 +40,7 @@ p {padding: 10px
 }
 f img {
     width: 600px;  /* 横幅を200pxに */
-}
+} */
 a {
   color: deepskyblue;
 }
