@@ -49,7 +49,7 @@ a {
   display: block;
 }
 .sp{
-  display: none;
+  display: black;
 }
 
 @media only screen and (max-width: 767px){
