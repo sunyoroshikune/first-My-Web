@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*全てのwebページに適用される*/
-div {
+body{
   background-color: black;
   color: white;
 }
