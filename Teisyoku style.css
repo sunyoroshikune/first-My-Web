@@ -33,13 +33,13 @@ p {padding: 10px
     padding-left: 0px;
   }
     m img {
-    width: 600px;  /* 横幅を200pxに */ 
+    width: 50vw;  /* 横幅を200pxに */ 
 }
   img {
-    width: 600px; /* 横幅を200pxに */ 
+    width:50vw ; /* 横幅を200pxに */ 
 }
  f img {
-    width: 600px;  /* 横幅を200pxに */ 
+    width: 50vw;  /* 横幅を200pxに */ 
 } 
 a {
   color: deepskyblue;
