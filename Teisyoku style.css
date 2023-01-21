@@ -61,3 +61,31 @@ a {
     display: block;
   }
 }
+
+.speach-balloons-medium {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  padding: 5px;
+  line-height: 80px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: rgb(159, 196, 196);
+  border-radius: 50%;
+}
+
+.speach-balloons-medium::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 100px;
+  top: 50px;
+  border-right: 22px solid rgb(159, 196, 196);
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  transform: rotate( 110deg);
+}
